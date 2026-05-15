@@ -52,7 +52,7 @@ button {
 
 .each-element {
   display: grid;
-  grid-template-columns: 215px 180px 60px;
+  grid-template-columns: repeat(3, 215px 180px 60px);
   justify-content: space-between;
   align-items: center;
   padding: 10px;
